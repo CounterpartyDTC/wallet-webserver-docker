@@ -1,0 +1,11 @@
+{
+  "servers": [ "http://testnet.wallet.dogeparty.io" ],
+  "restrictedAreas": {
+    "pages/betting.html": ["US"],
+    "pages/openbets.html": ["US"],
+    "pages/matchedbets.html": ["US"],
+    "pages/rps.html": ["US"],
+    "dividend": ["US"]
+  }
+}
+
