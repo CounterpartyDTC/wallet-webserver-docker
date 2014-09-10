@@ -7,6 +7,8 @@ See the global picture how this container interacts with other components to run
 
 ## Build
 
+Before you build the Docker instance, make sure you compiled the [Dogeparty Web Wallet](https://github.com/Dogeparty/dogeparty-wallet) and copied the source into this recipe's ``html/wallet`` folder. Then build the Docker image which only then will include the HTML source of the wallet.
+
     docker build -t wallet-webserver:v1 .
 
 
